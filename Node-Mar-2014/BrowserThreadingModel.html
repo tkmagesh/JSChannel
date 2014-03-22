@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Browser Threading Model</title>
 	<script>
-	(function(window,document,undefined){
+	(function(window,document){
 		window.addEventListener("DOMContentLoaded",init);
 
 		function init(){
@@ -42,7 +42,7 @@
 			}
 			oneIteration();
 		}
-	})(window,document);
+	})(window,document,undefined);
 	</script>
 </head>
 <body>
